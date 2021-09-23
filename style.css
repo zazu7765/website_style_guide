@@ -1,0 +1,17 @@
+body{
+  margin: 0 10%;
+}
+
+.container{
+  border: 2px solid darkslategray;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.box{
+  display:inline-block;
+  width: 20%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
