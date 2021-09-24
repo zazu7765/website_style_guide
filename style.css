@@ -1,6 +1,18 @@
 body{
   margin: 0 10%;
 }
+/*text styles css*/
+h1{
+  font-family: 'Croissant One', cursive;
+}
+
+h2,h3{
+  font-family: Overpass, sans-serif;
+}
+
+p{
+  font-family: Raleway, sans-serif;
+}
 
 .container{
   border: 2px solid darkslategray;
@@ -8,8 +20,8 @@ body{
   padding: 10px;
   margin: 10px auto;
 }
-
-.box{
+/*colour section css*/
+.colourBox{
   display:inline-block;
   width: 19.5%;
   text-align: center;
@@ -35,4 +47,37 @@ body{
 .brown{
   background-color: #4c230a;
   color:white;
+}
+/*font section css*/
+.fontBox{
+  width:45%;
+  display: inline-block;
+}
+
+.fontTitle{
+  font-size: 40px;
+}
+
+.regular{
+  font-style: normal;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.raleway{
+  font-family: Raleway, sans-serif;
+}
+
+.overpass{
+  font-family: Overpass, sans-serif;
+}
+
+.croissant_one{
+  font-family: 'Croissant One', cursive;
 }
