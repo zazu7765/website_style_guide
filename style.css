@@ -1,12 +1,14 @@
 body{
-  margin: 0 10%;
+  margin: 0 5%;
 }
 /*text styles css*/
 h1{
+  font-size: 50px;
   font-family: 'Croissant One', cursive;
 }
 
 h2,h3{
+  font-size: 30px;
   font-family: Overpass, sans-serif;
 }
 
@@ -14,6 +16,9 @@ p{
   font-family: Raleway, sans-serif;
 }
 
+.name{
+  text-align: right;
+}
 .container{
   border: 2px solid darkslategray;
   border-radius: 5px;
@@ -50,8 +55,9 @@ p{
 }
 /*font section css*/
 .fontBox{
-  width:45%;
+  width:33.1%;
   display: inline-block;
+  max-height: 300px;
 }
 
 .fontTitle{
